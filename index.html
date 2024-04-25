@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abu Bakar Sayem</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#profile">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Accomplishments">Accomplishments</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo"><a href="#profile">Sayem</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#About" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#Education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#Accomplishments" onclick="toggleMenu()">Accomplishments</a></li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Sayem_500_500.png" alt="Abu Bakar Sayem's profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Abu Bakar Sayem</h1>
+            <p class="section__text__p2">Data Analyst | Kaggle Notebooks Master</p>
+            <p >As a self-taught data analyst with a proven track record of leveraging MySQL, Tableau, NumPy, Pandas, 
+                  Matplotlib, Seaborn, and Plotly to extract meaningful insights and create visualizations. I'm eager to contribute my skills and collaborate 
+                  in environments that can foster my potential.</p>
+            <br>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('https://www.kaggle.com/abmsayem')">Kaggle</button>
+                <button class="btn btn-color-2" onclick="window.open('https://public.tableau.com/app/profile/abu.bakar.sayem')">Tableau</button>
+                <button class="btn btn-color-2" onclick="window.open('My_Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#Get_in_Touch'">Contact Info</button>
+            </div>
+        </div>
+    </section>
+    
+            <div style="height: 70px;"></div>  
+    
+    <section id="About">
+          <p id="Get_To_Know_More" class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+          <div class="about-details-container">
+              <div class="text-container">
+                <p><strong>Key Strengths:</strong></p>
+                <p>📊 Proficient in crafting and executing complex SQL queries for database analysis.</p>
+                <p>🧹 Detail-oriented in cleaning and validating data to ensure accuracy and reliability.</p>
+                <p>📈 Expert in conducting in-depth exploratory data analysis for comprehensive insights.</p>
+                <p>📊 Summarizing complex data into visually engaging charts, graphs, and dashboards.</p>
+                <p>🛠️ Utilizing Python&apos;s Numpy and Pandas for numerical operations and data manipulation.</p>
+                <p>📊&nbsp;Skilled in interpreting complex data into visually compelling charts, graphs, and dashboards using Tableau.</p>
+                <br>
+                <p><strong>Project Highlights:</strong></p>
+                <p>🌍 Analyzed the global impact of air pollution on human health, contributing valuable insights for intervention.</p>
+                <p>✈️ Explored safety metrics in global tourism, empowering policymakers with actionable data.</p>
+                <p>🌐 Investigated suicide trends globally, supporting evidence-based strategies for public health.</p>
+                <p>📊 Explored and visualized demographic shifts worldwide, aiding informed decision-making.</p>
+                <p>🦠 Analyzed the impact of COVID-19 on a global scale, providing insights into vaccination efficacy.</p>
+                <br>
+                <p><strong>Research &amp; Leadership Experience:</strong></p>
+                <p>🕵️&zwj;♂️ Field Investigator at the Centre for Genocide Studies, conducting in-depth interviews on socio-economic perceptions and bilateral trade.</p>
+                <p>🚀 Team Lead at Youth Opportunities, enhancing content management processes and optimizing user engagement.</p>
+                <p>🌐 Operations Intern at Youth Opportunities, contributing to the efficient sourcing and publication of national and international opportunities.</p>
+                <p>⚜️ Rover Scouting at Dhaka University, demonstrating leadership in managing events and tough circumstances.</p>
+                <br>
+                <p>I am a passionate data analyst committed to transforming data into well-informed decision-making. Let&apos;s connect to explore opportunities where my skills can contribute to impactful projects and initiatives. Open to collaborations and available for both full-time and part-time positions, eager to take on new challenges!</p>
+              </div>
+          </div>
+    </section>
+        
+           <div style="height: 120px;"></div>
+    
+    <section id="Skills">
+          <p id="Explore_My" class="section__text__p1">Explore My</p>
+          <h1 class="title">Skills</h1>
+                <h3 class="skills-sub-title">Core Competencies</h3>
+                      <p>Exploratory Data Analysis, Time Series Analysis and Forecasting, Database Management, Data Wrangling, Data Visualization, Time Management, Teamwork, Leadership, Proactive, Multitasking, Communication, Field Research.</p>
+                      <br>
+                <h3 class="skills-sub-title">Technical Skills</h3>
+                      <p><b>Programming Languages:</b> SQL <i>(MySQL)</i>, Python <i>(Numpy, Pandas, Matplotlib, Seaborn, Plotly)</i>, HTML, CSS.</p>
+                      <p><b>Tools & Technologies:</b> Tableau, Jupyter Notebook, Google Colab, MySQL Workbench, Visual Studio Code, WordPress, Canva, Trello, Notion, Mendely, Google Suite, Excel, Word, PowerPoint.</p>
+    </section>
+    
+              <div style="height: 60px;"></div>
+    
+    <section id="Education">
+          <p id="Laying_the_Foundation" class="section__text__p1">Laying the Foundation</p>
+          <h1 class="title">Education</h1>
+            <div class="container">
+              <div class="left-side">
+                <p><strong>Bachelor of Social Sciences in International Relations</strong></p>
+                <p>University of Dhaka</p>
+              </div>
+              <div>
+                <p class="1right-side">2018 - 2022</p>
+              </div>
+            </div>
+            <br>
+            <p><strong>Relevant Coursework:</strong> Quantitative Methods in Social Research/Statistics 101 - (Measures of Central Tendency, Measures of Dispersion, Correlation Analysis, Regression Analysis, Hypothesis Testing).</p>
+    </section>
+    
+            <div style="height: 60px;"></div>
+      
+    <section id="Projects">
+              <p id="Browse_My_Recent" class="section__text__p1">Browse My Recent</p>
+              <h1 class="title">Projects</h1>
+                  <p><strong>Impact of Air Pollution on Human Health </strong></p>
+                      <ul>
+                          <li>Analyzed specific causes of air pollution-related deaths, focusing on outdoor sources like transportation and industrial emissions. Along with household sources such as solid fuel usage for cooking and heating;</li>
+                          <li>Identified regional disparities in death rates, emphasizing areas with a higher vulnerability to the adverse effects of air pollution;</li>
+                          <li>Utilized technologies like numpy, pandas, matplotlib, seaborn, plotly, and race bar charts for a comprehensive analysis.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Trends and Insights of Global Tourism</strong></p>
+                      <ul>
+                          <li>Analyzed and compared metrics such as fatalities per million passengers, million passengers per fatality, hijacking incidents, fatal accidents, and fatalities to identify trends;</li>
+                          <li>Developed a data-driven approach to enhance safety standards and improve the overall tourist experience by leveraging available information on air transport safety metrics;</li>
+                          <li>Utilized technologies like numpy, pandas, matplotlib, seaborn, plotly, and race bar chart to analyze data and gain a profound understanding of the growth dynamics in the international tourism and air transport sectors.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Understanding Suicide Trends: Around the World</strong></p>
+                      <ul>
+                          <li>Analyzed global suicide data to identify patterns and trends across different age groups;</li>
+                          <li>Utilized advanced data analysis technologies including numpy, pandas, matplotlib, seaborn, plotly, and race bar charts, to facilitate a comprehensive examination of suicide-related data and support evidence-based strategies for addressing this global public health concern.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Exploring Global Demographic Trends: 1950 to 2020</strong></p>
+                      <ul>
+                          <li>Explored and analyzed key global demographic indicators from 1950 to 2020, revealing significant shifts in population dynamics, age distribution, fertility rates, and mortality rates.</li>
+                          <li>Identified disparities between regions and countries, highlighting challenges such as varying rates of population growth, poverty, and limited access to healthcare and education.</li>
+                          <li>Leveraged technologies including numpy, pandas, matplotlib, and seaborn to visually represent and communicate the insights gained, facilitating a better understanding of global demographic trends for informed decision-making.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Impact of COVID-19: From Cases to Vaccines</strong></p>
+                      <ul>
+                          <li>Analyzed global and continental COVID-19 data using tools such as numpy, pandas, matplotlib, seaborn and plotly, providing a comprehensive understanding of the pandemic&apos;s impact on new cases, deaths, and vaccination rates.</li>
+                          <li>Presented information on new cases and deaths per million people, as well as data on first, second, and third doses of the COVID-19 vaccine globally and by continent, offering insights into the effectiveness of vaccination efforts and factors influencing the pandemic&apos;s trajectory.</li>
+                          <li>Leveraged advanced data analysis techniques to extract valuable insights into the spread of the pandemic, vaccination efficacy, and other contributing factors, contributing to a better comprehension of the ongoing global health crisis.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Connecting the World: A Comprehensive Overview</strong></p>
+                      <ul>
+                          <li>Explored the transformative journey of internet usage from the 1990s to 2020, emphasizing the exponential growth in global broadband subscriptions, showcasing its pivotal role in shaping modern connectivity.</li>
+                          <li>Investigated the profound impact of the mobile revolution on internet accessibility, highlighting the surge in internet users worldwide. Explored the symbiotic relationship between mobile cellular subscriptions and the expansion of the online user base.</li>
+                          <li>Leveraged cutting-edge technologies such as NumPy, Pandas, Matplotlib and Seaborn to proficiently analyze and visually represent the evolution of broadband subscriptions, internet users, mobile cellular subscriptions, and internet user ratios on a global, local, and regional scale, enhancing the comprehension of internet trends over the past three decades.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Trends of Global Energy Consumption</strong></p>
+                      <ul>
+                          <li>Explored global energy consumption trends over the last few decades, highlighting a significant increase in the number of people with access to electricity and a growing emphasis on cleaner cooking fuels.</li>
+                          <li>Analyzed key metrics such as per capita electricity consumption and primary energy consumption per capita, providing insights into the current state of global energy usage.</li>
+                          <li>Leveraged technologies like numpy, pandas, matplotlib, seaborn, and race bar charts to visually represent and communicate the intricate patterns and trends in global energy consumption, fostering a better understanding of the factors shaping our energy future.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Demographic Shifts in Bangladesh: 1950 to 2020</strong></p>
+                      <ul>
+                          <li>Explored key demographic indicators for Bangladesh from 1950 to 2020, including total population, male and female population, population density, sex ratio, median age, natural change, births, deaths, life expectancy, infant mortality rate, and net migration rate.</li>
+                          <li>Analyzed changes and trends in Bangladesh&apos;s population over time, providing insights into the impact on the country&apos;s development and well-being.</li>
+                          <li>Leveraged technologies such as numpy, pandas, matplotlib and seaborn to visualize and communicate demographic data effectively.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>COVID-19 in Bangladesh</strong></p>
+                      <ul>
+                          <li>Analyzed data reveals the spread of COVID-19, showcasing trends in new cases and deaths, providing a comprehensive understanding of the pandemic&apos;s impact on the country.</li>
+                          <li>Utilized datasets on first, second, and third doses administered, allowing for an evaluation of the effectiveness of the vaccination campaigns in Bangladesh during the specified time frame.</li>
+                          <li>Employed technologies such as numpy, pandas, matplotlib and seaborn to create visual representations, aiding in the interpretation of complex data and facilitating a clearer understanding of the factors influencing the course of the COVID-19 pandemic in Bangladesh.</li>
+                      </ul>
+                  <p><br></p>
+                  <p><strong>Energy Access and Consumption in Bangladesh</strong></p>
+                      <ul>
+                          <li>Explored and highlighted the multifaceted challenges in Bangladesh related to energy access, revealing disparities in electricity availability, clean cooking fuel access, and per capita energy consumption.</li>
+                          <li>Revealed the significant reliance on traditional biomass for cooking in Bangladesh, contributing to indoor air pollution and adverse health effects. This insight underscores the need for targeted interventions to address public health concerns associated with energy consumption practices.</li>
+                          <li>Utilized data analysis tools such as numpy, pandas and plotly to present a comprehensive picture of energy-related issues in Bangladesh. These insights provide a foundation for informed policy decisions aimed at improving energy access, reducing disparities, and promoting sustainable energy consumption.</li>
+                      </ul>
+    </section>
+    
+            <div style="height: 1350px;"></div>
+    
+    <section id="Experience">
+          <p id="My_Journey_So_Far" class="section__text__p1">My Journey So Far</p>
+          <h1 class="title">Work Experience</h1>
+            <div class="container">
+              <div class="left-side">
+                <p><strong> Field Investigator</strong></p>
+                <p><strong> Centre for Genocide Studies - University of Dhaka</strong></p>
+                <p><ul>
+                    <li>Conducted in-depth interviews with over 100+ individuals representing diverse socio-economic backgrounds across Bangladesh;</li>
+                    <li>Administered various puzzles to participants, successfully analyzing their responses to uncover nuanced perspectives on the subject matter;</li>
+                    <li>Engaged in extensive discussions with participants, emphasizing Bangladesh's bilateral trade relations with other countries.</li>
+                  </ul></p>
+              </div>
+              <div>
+                <p class="1right-side"> 01/2022 - 02/2022</p>
+              </div>
+            </div>
+            <br>
+            <div class="container">
+              <div class="left-side">
+                <p><strong>Team Lead, Bangladesh Operations</strong></p>
+                <p><strong>Youth Opportunities</strong></p>
+                <p><ul>
+                    <li>Administered the end-to-end process of opportunity management at Youth Opportunities, including sourcing, posting, assigning among interns, reviewing, and publishing opportunities, resulting in a streamlined and efficient workflow;</li>
+                    <li>Applied design skills to create visually appealing feature images for posted opportunities, contributing to increased engagement and user interaction;</li>
+                    <li>Managed the WordPress dashboard meticulously, guaranteeing accuracy in content before publication, contributing to a seamless user experience.</li>
+                  </ul></p>
+              </div>
+              <div>
+                <p class="1right-side">10/2019 - 02/2021</p>
+              </div>
+            </div>
+    </section>
+    
+            <div style="height: 60px;"></div>
+    
+    <section id="Accomplishments">
+          <p id="What_I've_Done" class="section__text__p1">What I've Done</p>
+          <h1 class="title">Accomplishments</h1>
+            <div class="container">
+              <div class="left-side">
+                <p><b>Data Analyst with Python (DataCamp).</b></p>
+              </div>
+              <div>
+                <p class="1right-side">02/2023</p>
+              </div>
+            </div>
+            <br>
+            <div class="container">
+              <div class="left-side">
+                <p><b>CareerX-19 (BYLC).</b></p>
+                <p>CareerX is an extensive month-long professional development program by Bangladesh Youth Leadership Center (BYLC).</p>
+              </div>
+              <div>
+                <p class="1right-side">06/2022</p>
+              </div>
+            </div>
+            <br>
+            <div class="container">
+              <div class="left-side">
+                <p><b>The Business Intelligence Analyst Course 2022 (Udemy).</b></p>
+              </div>
+              <div>
+                <p class="1right-side">05/2022</p>
+              </div>
+            </div>
+            <br>
+            <div class="container">
+              <div class="left-side">
+                <p><b>Data Analysis Essentials Using Excel (Udemy).</b></p>
+              </div>
+              <div>
+                <p class="1right-side">05/2022</p>
+              </div>
+            </div>
+            <br>
+            <div class="container">
+              <div class="left-side">
+                <p><b>Tableau 2020 A-Z: Hands-On Tableau Training For Data Science (Udemy).</b></p>
+              </div>
+              <div>
+                <p class="1right-side">05/2022</p>
+              </div>
+            </div>
+            <br>
+            <div class="container">
+              <div class="left-side">
+                <p><b>Communication In The 21st Century Workplace (Coursera).</b></p>
+              </div>
+              <div>
+                <p class="1right-side">11/2020</p>
+              </div>
+            </div>
+            <br>
+            <div class="container">
+              <div class="left-side">
+                <p><b>Fundamentals of Digital Marketing (Google Digital Garage).</b></p>
+              </div>
+              <div>
+                <p class="1right-side">06/2019</p>
+              </div>
+            </div>
+    </section>
+    
+            <div style="height: 60px;"></div>
+    
+    <section id="Contact">
+          <p id="Get_in_Touch" class="section__text__p1">Get in Touch</p>
+          <h1 class="title">Contact Me</h1>
+          <div class="contact-info-upper-container">
+            
+            <div class="contact-info-container">
+              <img
+                src="./assets/smartphone.png"
+                alt="Phone icon"
+                class="icon contact-icon email-icon"
+              />
+              <p>+880 1521 259649</p>
+            </div>
+            
+            <div class="contact-info-container">
+              <img
+                src="./assets/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+              />
+              <p><a href="mailto:abubakarsayem@outlook.com">abubakarsayem@outlook.com</a></p>
+            </div>
+            
+            <div class="contact-info-container">
+              <img
+                src="./assets/linkedin.png"
+                alt="LinkedIn icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://www.linkedin.com/in/abubakarsayem/" target="_blank">LinkedIn</a></p>
+            </div>
+            
+            <div class="contact-info-container">
+              <img
+                src="./assets/telegram.png"
+                alt="Telegram icon"
+                class="icon contact-icon"
+              />
+              <p><a href="https://t.me/abmsayem" target="_blank">Telegram</a></p>
+            </div>
+          </div>
+    </section>
+        <!-- <footer>
+            <p>Copyright &#169; 2024 Abu Bakar Sayem. All Rights Reserved.</p>
+        </footer> -->
+  </body>
+</html>
