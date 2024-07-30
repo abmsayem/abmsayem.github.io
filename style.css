@@ -340,6 +340,21 @@ section {
   margin-bottom: 5px;
 }
 
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.skill {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  padding: 5px 10px;
+  margin: 4px;
+  border-radius: 10px;
+}
+
 .skills-details-container {
   display: flex;
   justify-content: center;
